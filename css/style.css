@@ -8,15 +8,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @font-face{
     font-family:"cardhead";
-    src:url("/css/dum2/dum2.ttf")
+    src:url("../css/dum2/dum2.ttf")
 }
 @font-face{
     font-family:"cardtext";
-    src:url("/css/dum2/dum2cud.ttf");
+    src:url("../css/dum2/dum2cud.ttf");
 }
 @font-face{
     font-family:"newfont";
-    src:url("./Animales\ Fantastic.otf");
+    src:url("../css/Animales\ Fantastic.otf");
 }
 @font-face{
     font-family:'harrp';
@@ -43,7 +43,7 @@
 
 
 #landing{
-    background: url("/img/interior.JPG") !important;;
+    background: url("../img/interior.JPG") !important;;
     /* background-repeat: no-repeat; */
     background-size: cover;
     height:100vh;
@@ -78,7 +78,7 @@
 
 #features{
     background-attachment: fixed;
-    background: url("/img/features.PNG");
+    background: url("../img/features.PNG");
 }
 .gap{
     margin: 1rem ;
@@ -93,14 +93,14 @@
 }
 #characters{
    
-    background: url("/img/characters.JPG");
+    background: url("../img/characters.JPG");
     background-attachment: fixed;
     /* overflow-y: scroll; */
 }
 
 #houses{
     
-    background:url("/img/houses.PNG");
+    background:url("../img/houses.PNG");
     background-attachment: fixed;
 }
 #houses p{
@@ -115,11 +115,11 @@
 
 #spells{
     
-    background:url("/img/houses.JPG");
+    background:url("../img/houses.JPG");
     background-attachment: fixed;
 }
 #Sorting{
-    background:url("/img/Sorting.JPG");
+    background:url("../img/Sorting.JPG");
     background-attachment: fixed;
 }
 .gradient-dark{

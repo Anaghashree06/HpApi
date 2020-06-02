@@ -47,6 +47,7 @@ const sortNow = async () => {
 }
 
 const showSort = (text) => {
+   sorting.innerHTML = "";
    let textToBeInserted = `So, The sorting hat has chosen. You are now going to be a member of  ${text}!`
    var sorttext = document.createElement("div");
    sorttext.className = "container-fuid padding"
