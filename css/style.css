@@ -43,7 +43,7 @@
 
 
 #landing{
-    background: url("/img/interior.jpg") !important;;
+    background: url("/img/interior.JPG") !important;;
     /* background-repeat: no-repeat; */
     background-size: cover;
     height:100vh;
@@ -78,7 +78,7 @@
 
 #features{
     background-attachment: fixed;
-    background: url("/img/features.png");
+    background: url("/img/features.PNG");
 }
 .gap{
     margin: 1rem ;
@@ -93,14 +93,14 @@
 }
 #characters{
    
-    background: url("/img/characters.jpg");
+    background: url("/img/characters.JPG");
     background-attachment: fixed;
     /* overflow-y: scroll; */
 }
 
 #houses{
     
-    background:url("/img/houses.png");
+    background:url("/img/houses.PNG");
     background-attachment: fixed;
 }
 #houses p{
@@ -115,11 +115,11 @@
 
 #spells{
     
-    background:url("/img/houses.jpg");
+    background:url("/img/houses.JPG");
     background-attachment: fixed;
 }
 #Sorting{
-    background:url("/img/Sorting.jpg");
+    background:url("/img/Sorting.JPG");
     background-attachment: fixed;
 }
 .gradient-dark{
