@@ -152,12 +152,45 @@ const searchHouses = (text) => {
     if(text.length ===0){
         matches = housesList;
     }
-    console.log(matches);
+    // console.log(matches);
   const uniqueArray = matches.filter(function(item, pos) {
     return matches.indexOf(item) == pos;
 });
-console.log(uniqueArray);
-showHouses(matches);
+// console.log(uniqueArray);
+showHouses(uniqueArray);
+}
+
+const searchSpells = (text) => {
+    let matches = spellsList.filter(spell => {
+        const regex = new RegExp(`^${text}`, "gi");
+        return spell.spell.match(regex);
+    });
+    if(text.length ===0){
+        matches = spellsList;
+    }
+    // console.log(matches);
+  const uniqueArray = matches.filter(function(item, pos) {
+    return matches.indexOf(item) == pos;
+});
+// console.log(uniqueArray);
+showSpells(uniqueArray);
+}
+
+
+const searchCharacters = (text) => {
+    let matches = charactersList.filter(character => {
+        const regex = new RegExp(`^${text}`, "gi");
+        return character.name.match(regex);
+    });
+    if(text.length ===0){
+        matches = charactersList;
+    }
+    // console.log(matches);
+  const uniqueArray = matches.filter(function(item, pos) {
+    return matches.indexOf(item) == pos;
+});
+// console.log(uniqueArray);
+showCharacters(uniqueArray);
 }
 
 

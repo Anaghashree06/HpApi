@@ -37,10 +37,10 @@
             <a class="nav-item nav-link active newfont" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link newfont" href="#">Characters</a>
-            <a class="nav-item nav-link newfont" href="#">Spells</a>
-            <a class="nav-item nav-link newfont" href="#">Houses</a>
-            <a class="nav-item nav-link newfont" href="#">Sorting Hat</a>
+            <a class="nav-item nav-link newfont" href="#characterget">Characters</a>
+            <a class="nav-item nav-link newfont" href="#spellget">Spells</a>
+            <a class="nav-item nav-link newfont" href="#houseget">Houses</a>
+            <a class="nav-item nav-link newfont" href="#sortget">Sorting Hat</a>
             
           </div>
         </div>
@@ -107,30 +107,7 @@
       </div>
     </div>
 
-    <div id="characters">
-      <div class="container-fluid">
-        <h3 class="display-3 hp text-center marg-bot">
-          Characters from Harry Potter
-        </h3>
-        <p class="lead newfont">
-          All the characters from the magical world of Hogwarts and more!
-        </p>
-        <form class="form-inline my-2 my-lg-0 marg-bot">
-            <input
-              class="form-control mr-sm-2 newfont"
-              type="search"
-              id="searchCharacter"
-              placeholder="Character"
-              aria-label="Search"
-            />
-            <a class="btn btn-dark my-2 my-sm-0 newfont" href="#characterget">
-              Search
-            </a>
-          </form>
-          <p></p>
-        <div id="characterget" class="row padding"></div>
-      </div>
-    </div>
+   
 
     <div id="houses">
       <div class="container-fluid">
@@ -159,7 +136,44 @@
         <div id="houseget" class="row padding"></div>
       </div>
     </div>
+    <div id="Sorting">
+        <div class="container-fluid">
+          <h3 class="display-3 hp text-center marg-bot">The Sorting Ceremony</h3>
+          <div class="jumbotron gradient-dark">
+            <p class="lead newfont">
+              This is where you get sorted by the magical sorting hat, based on
+              your personality.
+            </p>
+            <button class="btn btn-success newfont marg-bot" onclick="sortNow()">Sort Me!</button>
+            <div id="sortget" class="row padding"></div>
+          </div>
+        </div>
+      </div>
 
+      <div id="characters">
+        <div class="container-fluid">
+          <h3 class="display-3 hp text-center marg-bot">
+            Characters from Harry Potter
+          </h3>
+          <p class="lead newfont">
+            All the characters from the magical world of Hogwarts and more!
+          </p>
+          <form class="form-inline my-2 my-lg-0 marg-bot">
+              <input
+                class="form-control mr-sm-2 newfont"
+                type="search"
+                id="searchCharacter"
+                placeholder="Character"
+                aria-label="Search"
+              />
+              <a class="btn btn-dark my-2 my-sm-0 newfont" href="#characterget">
+                Search
+              </a>
+            </form>
+            <p></p>
+          <div id="characterget" class="row padding"></div>
+        </div>
+      </div>
     <div id="spells">
       <div class="container-fluid">
         <h3 class="display-3 hp text-center marg-bot">
@@ -188,19 +202,7 @@
       </div>
     </div>
 
-    <div id="Sorting">
-      <div class="container-fluid">
-        <h3 class="display-3 hp text-center marg-bot">The Sorting Ceremony</h3>
-        <div class="jumbotron gradient-dark">
-          <p class="lead newfont">
-            This is where you get sorted by the magical sorting hat, based on
-            your personality.
-          </p>
-          <button class="btn btn-success newfont marg-bot" onclick="sortNow()">Sort Me!</button>
-          <div id="sortget" class="row padding"></div>
-        </div>
-      </div>
-    </div>
+    
   
  
     <script
