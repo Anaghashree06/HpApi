@@ -1,0 +1,129 @@
+*{
+    /* background-attachment: fixed; */
+    scroll-behavior: smooth;
+   
+    color:white;
+    /* font-family:"harrp" !important; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@font-face{
+    font-family:"cardhead";
+    src:url("/css/dum2/dum2.ttf")
+}
+@font-face{
+    font-family:"cardtext";
+    src:url("/css/dum2/dum2cud.ttf");
+}
+@font-face{
+    font-family:"newfont";
+    src:url("./Animales\ Fantastic.otf");
+}
+@font-face{
+    font-family:'harrp';
+    src: url("./parry-hotter.regular.ttf")
+    
+}
+/* .colorchange{
+    background:linear-gradient(0,0,0 blue, green, yellow);
+} */
+.monts{
+    font-family:"Montserrat";
+}
+.montsa{
+    font-family:"Montserrat";
+    color:black !important;
+}
+
+.hp{
+    font-family:"harrp" !important;
+    color:#ccb200;
+    padding-top:3rem;
+    /* margin-bottom:3rem; */
+}
+
+#landing{
+    background: url("/img/interior.jpg") !important;;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    color:rgba(0,0,0,0.4) !important;
+}
+.navbar a{
+    color:white !important;
+}
+
+.newfont{
+    font-family: "newfont", sans-serif;
+    
+}
+.dark{
+    background: darkslategray !important;
+}
+.cardhead{
+    font-family:"cardhead" !important;
+    color:Firebrick;
+    font-size:1.5rem;
+    font-weight:600; 
+}
+.marg{
+    margin-top:2rem;
+}
+
+.marg-bot{
+  margin-bottom:4rem;  
+}
+
+#features{
+    background-attachment: fixed;
+    background: url("/img/features.png");
+}
+.gap{
+    margin: 1rem ;
+}
+#features  p{
+    color:black;
+    text-decoration:  2px solid;
+    font-weight:bolder;
+}
+.gradient{
+    background:rgba(255,245,245,0.4) !important;
+}
+#characters{
+   
+    background: url("/img/characters.jpg");
+    background-attachment: fixed;
+    /* overflow-y: scroll; */
+}
+
+#houses{
+    
+    background:url("/img/houses.png");
+    background-attachment: fixed;
+}
+#houses p{
+    color:black;
+}
+#houses h3{
+    font-weight:700;
+}
+#spells p{
+    color:black;
+}
+
+#spells{
+    
+    background:url("/img/houses.jpg");
+    background-attachment: fixed;
+}
+#Sorting{
+    background:url("/img/Sorting.jpg");
+    background-attachment: fixed;
+}
+.gradient-dark{
+    background: rgba(0,0,0,0.6) !important;
+}
+.white{
+    color:white !important;
+}
